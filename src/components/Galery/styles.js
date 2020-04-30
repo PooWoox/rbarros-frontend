@@ -18,6 +18,22 @@ export const StyledReactModal = styled(ReactModal)`
 
   img {
     height: 600px;
+
+    @media (max-width: 1200px) {
+      height: 500px;
+    }    
+
+    @media (max-width: 1100px) {
+      height: 400px;
+    }
+    
+    @media (max-width: 715px) {
+      height: 300px;
+    }
+    
+    @media (max-width: 515px) {
+      height: 250px;
+    }
   }
 
   p {

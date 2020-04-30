@@ -4,18 +4,17 @@ import topBannerImg from '../../assets/topo_1.png';
 
 export const Container = styled.div`
   background: #ccc;
-  display: flex;
-  flex-direction: column;
 `;
 
 export const TopBanner = styled.div`
-  height: 130px;
-  background-image: url(${topBannerImg});
-  background-size: cover;
+  display: flex;
+  justify-content: center;
+  background: #222;
+  background-image: url(${props => props.backgroundImg});
   background-position: center;
-  background-repeat: no-repeat;
+  background-size: cover;
 
-  @media (max-width: 715px) {
-    height: 80px;
+  img {
+    width: 100%;
   }
 `;

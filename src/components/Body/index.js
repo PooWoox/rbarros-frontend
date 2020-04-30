@@ -214,10 +214,10 @@ Não é necessário ser médico para ser um bom gestor. A verdade é que a pasta
               },
               content: {
                 position: 'absolute',
-                top: '40px',
-                left: '40px',
-                right: '40px',
-                bottom: '40px',
+                top: '20px',
+                left: '20px',
+                right: '20px',
+                bottom: '20px',
                 border: 'none',
                 background: 'rgba(0, 0, 0, 0)',
                 overflow: 'auto',
@@ -240,8 +240,8 @@ Não é necessário ser médico para ser um bom gestor. A verdade é que a pasta
             url={`https://www.youtube.com/watch?v=${activeVideo.video_id}`}
             playing 
             light={true} 
-            width={640 * 1.2}
-            height={360 * 1.2}
+            width='100%'
+            height='100%'
             />
 
           <Carousel

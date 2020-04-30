@@ -59,7 +59,7 @@ export default createGlobalStyle`
     overflow-x: hidden;
   }
 
-  body, input, button {
+  body, input, button, textarea {
     font-family: 'Myriad Pro';
   }
 

@@ -5,13 +5,17 @@ import ReactModal from 'react-modal';
 import rcBannerImg from '../../assets/banner_top.png';
 
 export const BannerMain = styled.div`
-  height: 600px;
+  height: 500px;
   background-image: url(${rcBannerImg});
   background-position: center;
   background-size: cover;
 
-  @media (max-width: 715px) {
+  @media (max-width: 900px) {
     height: 250px;
+  }
+
+  @media (max-width: 400px) {
+    height: 200px;
   }
 `;
 
@@ -42,9 +46,6 @@ export const SectionImage1 = styled.div`
   display: flex;
   justify-content: center;
   background: #222;
-  background-image: url(${props => props.backgroundImg});
-  background-position: center;
-  background-size: cover;
   margin-top: 5px;
   margin-bottom: 15px;
 
